@@ -1,0 +1,29 @@
+<div class="main">
+  <video playsinline
+  loop
+  autoplay
+  [muted]="true" id="myVideo">
+    <source src="./assets/videos/Workbucks-Website.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="header">
+    <div class="header-logo">
+      <img src="assets/images/Workbucks-logo.jpeg">
+    </div>
+    <ul class="header-nav-list">
+      <li class="header-nav-item">
+        100 girls in blockchain
+      </li>
+      <li class="header-nav-item">
+        Web3 Discovery
+      </li>
+      <li class="header-nav-item">
+        About us
+      </li>
+      <li class="header-nav-item">
+        Contact us
+      </li>
+    </ul>
+  </div>
+  <div class="content"><router-outlet></router-outlet></div>
+</div>
